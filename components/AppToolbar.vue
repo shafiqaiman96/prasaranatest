@@ -1,5 +1,4 @@
-<template>
-  
+<template>  
   <v-app>
     <v-navigation-drawer v-model="sidebar" app>
       <v-list>
@@ -60,7 +59,7 @@ export default {
       appTitle: 'Rapid Bus',
       sidebar: false,
       menuItems: [
-          { title: 'Home', path: '/', icon: 'home' },
+          { title: 'Home', path: '/dashboard', icon: 'home' },
           { title: 'Log Out', path: '/login', icon: 'lock_open' }
      ]
     }

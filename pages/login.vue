@@ -69,7 +69,7 @@ import {getUser} from '@/api/user';
       }
       if(hasErr == false){
         this.loading = true;
-        this.$router.push({ path: '/'});
+        this.$router.push({ path: '/dashboard'});
       }
     }
   },

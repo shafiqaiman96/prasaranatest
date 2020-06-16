@@ -290,7 +290,7 @@
       
     alert1() {
         this.$confirm("Are you sure to cancel filling?").then(() => {
-          this.$router.push({ path: '/' })
+          this.$router.push({ path: '/dashboard' })
         })
     },
      alert2() {

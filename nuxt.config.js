@@ -15,8 +15,7 @@ module.exports = {
       {charset: 'utf-8'},
       {name: 'viewport', content: 'width=device-width, initial-scale=1'},
       {
-        hid: 'description', name: 'description', content: 'Vue Material Admin Template is a \n' +
-          '    Google Material Design inspired admin dashboard template built with Vue and Vuetify.'
+        hid: 'description', name: 'description', content: 'Preventive Maintenance Checklist is a site for engineer to make a checklist for their maintenance activities.'
       }
     ],
     link: [
